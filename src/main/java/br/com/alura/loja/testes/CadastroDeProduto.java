@@ -3,6 +3,7 @@ package br.com.alura.loja.testes;
 import br.com.alura.loja.dao.CategoriaDao;
 import br.com.alura.loja.dao.ProdutoDao;
 import br.com.alura.loja.modelo.Categoria;
+import br.com.alura.loja.modelo.CategoriaId;
 import br.com.alura.loja.utils.JPAUtil;
 import br.com.alura.loja.modelo.Produto;
 
@@ -48,6 +49,9 @@ public class CadastroDeProduto {
 
         em.getTransaction().commit();
 
+        em.find(Categoria.class, new CategoriaId("CELULARES", "xpto"));
+
+        em.close();
 //        em.persist(celulares);
 //        celulares.setNome("XPTO");
 //
