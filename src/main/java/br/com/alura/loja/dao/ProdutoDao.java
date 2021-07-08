@@ -1,7 +1,6 @@
 package br.com.alura.loja.dao;
 
 import br.com.alura.loja.modelo.Produto;
-import net.bytebuddy.asm.Advice;
 
 import javax.persistence.EntityManager;
 import java.math.BigDecimal;
@@ -40,6 +39,7 @@ public class ProdutoDao {
         return em.createQuery(jpql, Produto.class)
                 .setParameter("nome", nome)
                 .getResultList();
+
     }
 
     public BigDecimal buscarPrecoDoProdutoComNome(String nome) {
