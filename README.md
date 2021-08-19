@@ -5,7 +5,7 @@ Projeto de estudo desenvolvido na plataforma Alura com intuito de desenvolver ha
 ## Sobre o Projeto
 Foi criado uma loja afim de comercializar seus produtos junto aos seus clientes. 
 
-Principais assuntos cobertos neste projeto:
+## Principais assuntos cobertos neste projeto:
 
 * Mapeamento de entidades e relacionamentos bidirecionais;
 * Utilização de recursos como select new para realizar consultas avançadas;
