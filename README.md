@@ -1,10 +1,9 @@
-# Persistencia_com_JPA
+# Persistencia com JPA
 
 Projeto de estudo desenvolvido na plataforma Alura com intuito de desenvolver habilidades em persistência de dados. 
 
-*Foi criado uma loja afim de comercializar seus produtos junto aos seus clientes. 
-
-*Foi utilizado o framework Hibernate pra persistir os dados e o H2 (database em memória).
+## Sobre o Projeto
+Foi criado uma loja afim de comercializar seus produtos junto aos seus clientes. 
 
 Principais assuntos cobertos neste projeto:
 
@@ -15,8 +14,7 @@ Principais assuntos cobertos neste projeto:
 * Conhecimento da API de Criteria da JPA;
 * Mapeamento de entidades que utilizam herança e chave composta. 
 
-
-
+Foi utilizado o framework Hibernate pra persistir os dados e o H2 (database em memória).
 
 
 
